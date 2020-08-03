@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arial','Nanum Gothic', sans-serif;
+/*    background: #000;*/
+}
+
+.row {
+    width: 940px;
+    margin: 0 auto;  
+    overflow: hidden;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../../img/pic002.jpg");
+    background-position: center;
+}
+.header {
+    position: relative;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+nav a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:link,
+nav li a:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+nav li a:hover,
+nav li a:active{
+    border-bottom: 2px solid #186206;
+}
+section {
+    position: relative;
+}
+.box {
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box img {
+    width: 100%;
+    position: center;
+}
+.one p, 
+.one h1, 
+.one h2, 
+.one h3 {
+    color: #000
+    text-align: center;
+    padding: 10px
+}
+.txt-sobre {
+    color: #fff;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../../img/pic002.jpg");
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.txt-sobre h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+.txt-sobre p {
+    display: inline-block;
+    font-size: 22px;
+    padding: 5px 20px 5px 20px;
+}
