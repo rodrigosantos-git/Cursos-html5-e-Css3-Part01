@@ -68,12 +68,17 @@ section {
     text-align: center;
     padding: 10px
 }
+.sobre {
+    
+}
 .txt-sobre {
     color: #fff;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../../img/pic002.jpg");
     text-align: center;
+    height: 350px;
     font-family: 'Open Sans Condensed', sans-serif;
+    padding: 40px;
 }
 .txt-sobre h2 {
     font-weight: bold;
@@ -84,4 +89,35 @@ section {
     display: inline-block;
     font-size: 22px;
     padding: 5px 20px 5px 20px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    background: #000;
+    color: #fff;
+}
+.social li  {
+    text-align: center;
+    display: inline;
+    color: #000;
+}
+.social h1 {
+    text-align: center;
+}
+.menu-rodape a{
+    text-decoration: none;
+    color: #9a9595;
+}
+.menu-rodape li{
+    list-style: none;
+}
+
+ion-icon {
+    color: #9a9595;
+    font-size: 26px;
+}
+.copyright {
+    padding: 10px;
+    text-align: center;
 }
